@@ -1,0 +1,8 @@
+elasticsearch[async]==7.9.1
+sentry-sdk[fastapi]==1.25.1
+structlog==23.1.0
+structlog-sentry-logger==1.0.1
+orjson==3.8.7
+pydantic==1.10.9
+requests==2.31.0
+beautifulsoup4==4.12.2
