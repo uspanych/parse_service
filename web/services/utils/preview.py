@@ -1,7 +1,7 @@
 from adapters import elastic
 from elasticsearch import AsyncElasticsearch
 from core.config import settings
-from .scheme import SITES_SCHEME
+from .constants import SITES_SCHEME
 from elasticsearch.exceptions import RequestError
 from core.logger import logger
 

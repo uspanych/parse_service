@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 from requests.exceptions import ConnectionError
 
-from src.core.logger import logger
+from core.logger import logger
 from .tools import AbstractParser
 
 
