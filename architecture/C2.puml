@@ -1,0 +1,12 @@
+@startuml
+skinparam componentStyle uml2
+actor Клиент as Client
+component WebApi
+component Parser
+database Elasticsearch
+
+
+Client -right-> WebApi: GET запрос по Api
+Parser -up-> Elasticsearch: Сохранение результатов парсинга сайтов
+WebApi -right-> Elasticsearch: Получение данные по запросу
+@enduml

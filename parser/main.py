@@ -3,10 +3,10 @@ import uuid
 from elasticsearch import Elasticsearch
 from elasticsearch.helpers import bulk
 
-from src.adapters import elastic
-from src.core.config import settings
-from src.models.sites import SiteModel
-from src.services.parser import get_parse_service, SiteParser
+from adapters import elastic
+from core.config import settings
+from models.sites import SiteModel
+from services.parser import get_parse_service, SiteParser
 
 
 def parse_sites(

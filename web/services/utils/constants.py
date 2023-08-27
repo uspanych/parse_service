@@ -1,3 +1,5 @@
+PAGE_NOT_FOUND = "page_not_found"
+
 SITES_SCHEME = {
     "settings": {
         "refresh_interval": "1s",
